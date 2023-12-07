@@ -1,0 +1,19 @@
+.wd-pointer {
+    cursor: pointer;
+  }
+  
+  .wd-float-right {
+    float: right;
+  }
+  
+  .wd-font-size-15px {
+    font-size: 30px;
+  }
+  
+  .wd-yellow {
+    color: rgb(236, 178, 45);
+  }
+  
+  .wd-gray {
+      color: rgb(200,200,200);
+  }
