@@ -31,7 +31,7 @@ const NavbarComponent = () => {
   );
 
   return (
-    <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand
           className="wd-cursor-pointer"

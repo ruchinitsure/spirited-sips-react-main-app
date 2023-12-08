@@ -25,7 +25,7 @@ import {
 import axios from "axios";
 import "./index.css";
 
-const BASE_API_URL = "http://localhost:4000";
+const BASE_API_URL = process.env.REACT_API_BASE ||"http://localhost:4000";
 const USERS_URL = BASE_API_URL + "/users";
 
 const api = axios.create({ withCredentials: true });
